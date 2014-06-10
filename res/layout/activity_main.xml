@@ -11,7 +11,10 @@
         android:layout_margin="4dp"
         android:layout_weight="1"
         class="com.google.android.gms.maps.SupportMapFragment"
-      />
+        map:cameraTargetLat="35.658599"
+        map:cameraTargetLng="139.745443"
+        map:cameraTilt="60"
+        map:cameraZoom="18" />
     <fragment
         android:id="@+id/map2"
         android:layout_width="match_parent"
@@ -19,5 +22,8 @@
         android:layout_margin="4dp"
         android:layout_weight="1"
         class="com.google.android.gms.maps.SupportMapFragment"
-    />
+        map:cameraTargetLat="35.7105827"
+        map:cameraTargetLng="139.811487"
+        map:cameraTilt="60"
+        map:cameraZoom="18" />
 </LinearLayout>
